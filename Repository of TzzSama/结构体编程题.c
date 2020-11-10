@@ -1,5 +1,8 @@
-#include <stdio.h>
-#define N 10
+```c
+include <stdio.h>
+
+define N 10
+
 struct student
 {
     int id;
@@ -32,14 +35,18 @@ void struct_sort(STUDENT* stu)
             }
         }
     }
-
+    
     int g=0;
     for (g=0;g<10;g++)
     {
         printf("%f\n",stu[g].grades);
     }
+
 }
 
 
+
+
+```
 
 
